@@ -7,17 +7,16 @@ package in.gadgethub.pojo;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public class UserPojo {
-    
     private String username;
     private String useremail;
     private String mobile;
     private String address;
     private int pincode;
     private String password;
-    
+
     public UserPojo() {
     }
 
@@ -29,7 +28,7 @@ public class UserPojo {
         this.pincode = pincode;
         this.password = password;
     }
-    
+
     public String getUsername() {
         return username;
     }
@@ -82,5 +81,6 @@ public class UserPojo {
     public String toString() {
         return "UserPojo{" + "username=" + username + ", useremail=" + useremail + ", mobile=" + mobile + ", address=" + address + ", pincode=" + pincode + ", password=" + password + '}';
     }
+    
     
 }

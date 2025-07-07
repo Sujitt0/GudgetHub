@@ -6,11 +6,11 @@
 package in.gadgethub.pojo;
 
 import java.io.InputStream;
-import java.sql.Date;
+import java.util.Date;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public class OrderDetailsPojo {
     private String orderId;
@@ -99,5 +99,6 @@ public class OrderDetailsPojo {
     public void setProdImage(InputStream prodImage) {
         this.prodImage = prodImage;
     }
+       
     
 }

@@ -8,24 +8,26 @@ package in.gadgethub.utility;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public class IDUtil {
-    public static String generateProdId() {
-        Date today = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
-        String prodId = sdf.format(today);
-        prodId = "P" + prodId;
+    public static String generateProdId(){
+        Date today=new Date();
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMddhhmmss");
+        String prodId=sdf.format(today);
+        prodId="P"+prodId;
         return prodId;
     }
-
-    public static String generateTransId() {
-        Date today = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmmss");
-        String transId = sdf.format(today);
-        transId = "T" + transId;
+    
+    public static String generateTransId(){
+        Date today=new Date();
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMddhhmmss");
+        String transId=sdf.format(today);
+        transId="T"+transId;
         return transId;
     }
+    
 }

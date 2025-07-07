@@ -7,7 +7,7 @@ package in.gadgethub.pojo;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public class CartPojo {
     private String useremail;

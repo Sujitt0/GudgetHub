@@ -10,9 +10,10 @@ import java.util.List;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public interface ProductDao {
+    
     public String addProduct(ProductPojo product);
 
 	public String updateProduct(ProductPojo prevProduct, ProductPojo updatedProduct);
@@ -28,7 +29,7 @@ public interface ProductDao {
 	public String updateProductWithoutImage(String prevProductId, ProductPojo updatedProduct);
 	public double getProductPrice(String prodId);
 
-	public Boolean sellNProduct(String prodId, int n);
+	public boolean sellNProduct(String prodId, int n);
 	public List<String> getAllProductsType();
 
 	public byte[] getImage(String prodId);

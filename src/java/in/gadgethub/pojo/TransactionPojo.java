@@ -5,42 +5,42 @@
  */
 package in.gadgethub.pojo;
 
-import java.sql.Date;
+import java.util.Date;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public class TransactionPojo {
-    private String transId;
-    private String useremail;
+    private String TransactionId;
+    private String userEmail;
     private Date transTime;
     private double amount;
 
     public TransactionPojo() {
     }
 
-    public TransactionPojo(String transId, String useremail, Date transTime, double amount) {
-        this.transId = transId;
-        this.useremail = useremail;
+    public TransactionPojo(String transcationId, String userEmail, Date transTime, double amount) {
+        this.TransactionId = transcationId;
+        this.userEmail = userEmail;
         this.transTime = transTime;
         this.amount = amount;
     }
 
-    public String getTransId() {
-        return transId;
+    public String getTransactionId() {
+        return TransactionId;
     }
 
-    public void setTransId(String transId) {
-        this.transId = transId;
+    public void setTransactionId(String TransactionId) {
+        this.TransactionId = TransactionId;
     }
 
-    public String getUseremail() {
-        return useremail;
+    public String getUserEmail() {
+        return userEmail;
     }
 
-    public void setUseremail(String useremail) {
-        this.useremail = useremail;
+    public void setUserEmail(String userEmail) {
+        this.userEmail = userEmail;
     }
 
     public Date getTransTime() {
@@ -61,7 +61,7 @@ public class TransactionPojo {
 
     @Override
     public String toString() {
-        return "TransactionPojo{" + "transId=" + transId + ", useremail=" + useremail + ", transTime=" + transTime + ", amount=" + amount + '}';
+        return "TransactionPojo{" + "transcationId=" + TransactionId + ", userEmail=" + userEmail + ", transTime=" + transTime + ", amount=" + amount + '}';
     }
     
 }

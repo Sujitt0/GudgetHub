@@ -7,14 +7,13 @@ package in.gadgethub.pojo;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public class DemandPojo {
-
-
     private String useremail;
     private String prodId;
     private int demandQuantity;
+
     public DemandPojo() {
     }
 

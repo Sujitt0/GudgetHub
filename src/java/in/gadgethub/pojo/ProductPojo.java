@@ -9,7 +9,7 @@ import java.io.InputStream;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public class ProductPojo {
     private String prodId;
@@ -88,5 +88,6 @@ public class ProductPojo {
     public void setProdImage(InputStream prodImage) {
         this.prodImage = prodImage;
     }
+    
     
 }

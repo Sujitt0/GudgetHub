@@ -9,13 +9,13 @@ import in.gadgethub.pojo.UserPojo;
 
 /**
  *
- * @author Sujit Prajapati
+ * @author prashant yadav
  */
 public interface UserDao {
     String registerUser(UserPojo user);
     boolean isRegistered(String emailId);
-    String isVaildCredentials(String emailId,String password);
+    String isValidCredentials(String emailId,String password);
     UserPojo getUserDetails(String emailId);
-    String getuserFirstName(String emailId);
-    String getUserAddress(String emailId);
+    String getUserFirstName(String emailId);
+    String getUserAddr(String emailId);
 }
